@@ -24,11 +24,7 @@ The number of nodes in the tree is in the range [0, 100].
 -100 <= Node.val <= 100
 """
 
-def invertTree(root):
-        """
-        :type root: TreeNode
-        :rtype: TreeNode
-        """
+def invertTree(root: TreeNode) -> TreeNode:
         if root == None:
             return root
         else:

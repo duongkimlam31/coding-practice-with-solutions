@@ -28,7 +28,7 @@ Constraints:
 Only one valid answer exists.
 """
 
-def twoSum(nums, target):
+def twoSum(nums: int, target: list[int]) -> list[int]:
     dict = {}
     for i in range(len(nums)):
         dict[nums[i]] = i

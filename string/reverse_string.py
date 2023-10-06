@@ -24,15 +24,13 @@ Expected Time Complexity: O(N)
 Expected Auxiliary Space: O(N)
 """
 
-class Solution:
-    
-    #Function to reverse words in a given string.
-    def reverseWords(self,S):
-        # code here 
-        tmp = S.split(".")
-        result = ""
-        for i in range(len(tmp)-1, -1, -1):
-            result += tmp[i]
-            if i != 0:
-                result += "."
-        return result
+#Function to reverse words in a given string.
+def reverseWords(S):
+    # code here 
+    tmp = S.split(".")
+    result = ""
+    for i in range(len(tmp)-1, -1, -1):
+        result += tmp[i]
+        if i != 0:
+            result += "."
+    return result

@@ -22,7 +22,11 @@ The number of nodes in the tree is in the range [0, 104].
 -100 <= Node.val <= 100
 """
 
-def maxDepth(root):
+def maxDepth(root: TreeNode) - > int:
+    """
+    :type root: TreeNode
+    :rtype: int
+    """
     if root == None:
         return 0
     else:
